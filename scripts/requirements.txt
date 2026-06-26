@@ -1,0 +1,4 @@
+# Unlimited-OCR runner (Mac/CPU, HF Space 경유) 의존성
+# 로컬 모델 추론(transformers/torch/CUDA)은 불필요 — 원격 ZeroGPU 사용.
+gradio_client>=1.0
+pymupdf>=1.24

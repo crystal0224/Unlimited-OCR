@@ -1,3 +1,8 @@
+<!-- fork note (crystal0224) -->
+> 🍎 **Mac/CPU에서 GPU 없이 쓰기**: 아래 공식 추론 코드는 NVIDIA GPU(CUDA) 전제입니다.
+> GPU가 없다면 [`scripts/README.md`](scripts/README.md)의 `ocr.py`를 쓰세요 — Baidu 공식
+> HuggingFace Space(ZeroGPU)를 경유해 `python3 scripts/ocr.py document.pdf` 한 줄로 PDF/이미지를 Markdown으로 OCR합니다.
+
 <p align="center">
   <img src="assets/baidu.png" width="40%" alt="Baidu Inc." />
 </p>
